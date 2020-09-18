@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTodoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="renderTime()">
+
+  <div class="header">
+    <div class="logo">      
+        <a class="img" href="#"><img src= "https://img.icons8.com/cute-clipart/64/000000/task.png"
+           width="50" height="50" alt=""></a>
+           <h3 class="header__subtitle">What do you need to do?</h3>
+            
+           
+           
+           <ul class="menu">
+           <li class="nav-item ">
+             <a class="nav-link" href="#">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link " href="#">About us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Contact us</a>
+           </li>
+         </ul></div> 
+  </div>  
+  <div class="change">
+   <div><button onclick="white_btn()" class="button_white">white</button>
+      <button onclick="black_btn()" class="button_black">black</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class= "sub_container">
+      <h1 class="title">MyTodoList</h1>
+     <p class="checkbox"> <input type="checkbox" id="myCheckbox" >Hide completed</p>
+
+      <form class="button_input">
+        <input id="input"  type="text" value="" placeholder="New Todo.." >
+        <button onclick="add()" id="button" value="">Submit</button>
+        </form>
+        </div>
+    </div> 
+  </div>  
+  <div class="todos">
+    <ul id="task">
+
+    </ul>
+  </div> 
+   
+  <div class="delete_save">
+    <button class="delete" onclick="deleteList()"  value=""><i class="fa fa-trash" style="font: size 30px;"></i></button>
+    <button class="save"   value=""> <i class="fa fa-save"></i></button>
+    <button onclick="sign()" class="sign"   value=""><i class="fa fa-sign-out"></i></button>
+
+</body>
+
+<script src="main.js"></script>
+</html>

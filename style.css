@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    position: relative;
+    background: #2B292E;
+    color: #fafafa;
+    font-family: "Kaushan Script", cursive;
+    font-size: 1rem;
+
+}
+.header{
+    
+    background: #6F439C;
+    color:white;
+}
+.logo{
+    display: grid;
+    grid-template-rows: 40px ;
+    padding: 0 1.6rem;
+    }
+    /* .img{
+      
+        float: left;
+    } */
+
+
+
+.header__subtitle{
+display: flex;
+ justify-content: flex-start;
+margin-left: 80px;
+font-weight: 300;
+
+}
+.menu{
+    display:grid; 
+     grid-template-columns:100px 100px 100px; 
+    list-style-type: none; 
+justify-content: flex-end;
+}
+.nav-link:hover {
+    color: rgb(10, 2, 6);
+   
+  }
+  .nav-link{
+    text-decoration: none;
+    color:white; 
+  }
+  .change{
+      /* background-color:rgb(84, 70, 92); */
+      background-color: #353239;
+     
+      display: flex;
+      justify-content: space-between;
+  }
+  .button_white{
+    background-color:white;
+  border-radius: 100%;
+  padding: 5px;
+  }
+  .button_black{
+    background-color:#2B292E;
+    color: white;
+    border-radius: 100%;
+    padding: 6px;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content:flex-start;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .title{
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+    
+      .button_input{
+        padding-top: 10px;
+        padding-left: 50px;
+      }
+      .sub_container{
+        width: 100%;
+      }
+
+      #button {
+          color: white;
+        font-size: 13px;
+        background-color: #6F439C;
+        width: 5%;
+        padding: 12px 20px;
+        margin: 8px 0;
+      cursor: pointer;
+     text-indent: -15px; 
+    }
+    #input{
+     
+      width: 25%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .todos{
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    .list-item{
+      
+    color: #fafafa;
+    cursor: pointer;
+    background: #353239;
+    border: 1px solid #423e47;
+    margin: 1.6rem ;
+    padding: 1rem ;
+    display: grid;
+grid-template-columns: 70px 70px 70px;
+    justify-content: space-between;
+    align-items: center
+  
+    }
+
+    .delete_save{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .delete{
+        color: white;
+        font-size: 13px;
+        background-color: #6F439C;
+        width: 5%;
+        padding: 12px 30px;
+        margin: 8px 0;
+      cursor: pointer;
+     text-indent: -3px; 
+    }
+    .save{
+        color: white;
+        font-size: 13px;
+        background-color: #6F439C;
+        width: 5%;
+        padding: 12px 30px;
+        margin: 8px 0;
+      cursor: pointer;
+     text-indent: -3px; 
+    }
+    .sign{
+        color: white;
+        font-size: 13px;
+        background-color: #6F439C;
+        width: 5%;
+        padding: 12px 30px;
+        margin: 8px 0;
+      cursor: pointer;
+     text-indent: -3px; 
+    }
+    .undefined{
+        background: none;
+        border: none;
+        color: rgb(114, 105, 105);
+    }
+    
+.undefined:hover {
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
+.checkbox{
+padding-left: 60rem;
+}

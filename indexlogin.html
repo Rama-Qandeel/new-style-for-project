@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+        <div class="imgcontainer" >
+            <img class="img" src="https://www.mes-dev.com/demos/img/login.png" >
+          </div>
+          <div class="container">
+            <label ><b>Username</b></label>
+              <input class="username"  name="username" type="text" value="" placeholder="Enter Username" required>
+              <label ><b>Password</b></label>
+    <input class="pass" name="password"  type="password"  value="" placeholder="Enter Password"  required>
+    <button onclick="login()" type="submit">Login</button>
+   <label> <input type="checkbox" checked="checked" > Remember me</label>
+          </div>
+          <div class="containerforget" >
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forget <a href="#">password?</a></span>
+          </div>
+</body>
+<script src="login.js"></script>
+</html>

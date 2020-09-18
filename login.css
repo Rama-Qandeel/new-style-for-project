@@ -1,0 +1,57 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+background-color: rgba(217, 216, 231, 0.89);
+}
+
+.imgcontainer{
+   
+     text-align: center;
+  margin: 24px 0 12px 0;
+
+  }
+  img{
+    width: 30%;
+    border-radius: 50%;
+  }
+  .container{
+display: grid;
+padding: 20px;
+gap: 10px;
+justify-content: center;
+
+}
+button {
+    background-color: #664cc4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+.containerforget{
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  span.psw {
+    padding-top: 16px;
+  }
+
+  input{
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+  }
